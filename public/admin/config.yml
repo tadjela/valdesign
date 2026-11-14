@@ -1,0 +1,38 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USER/vals-design   # à remplacer
+  branch: main
+  # base_url: https://YOUR-OAUTH-PROXY   # requis pour l'authentification GitHub (voir README)
+media_folder: public/images/products
+public_folder: /images/products
+collections:
+  - name: catalog
+    label: Catalogue
+    files:
+      - name: products
+        label: Produits
+        file: src/data/products.json
+        fields:
+          - label: Produits
+            name: products
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Identifiant (unique, sans espace), name: id, widget: string }
+              - { label: Nom, name: name, widget: string }
+              - { label: Catégorie, name: category, widget: select, options: [hoodies, tshirts, caps] }
+              - { label: Description, name: description, widget: text }
+              - { label: Prix Égypte (EGP), name: priceEGP, widget: number }
+              - { label: Prix Togo (XOF), name: priceXOF, widget: number }
+              - { label: Tailles, name: sizes, widget: list, field: { label: Taille, name: size, widget: string } }
+              - label: Couleurs
+                name: colors
+                widget: list
+                fields:
+                  - { label: Nom, name: name, widget: string }
+                  - { label: Code couleur (#RRGGBB), name: hex, widget: string }
+              - { label: Stock, name: stock, widget: number }
+              - { label: Publié, name: published, widget: boolean, default: true }
+              - { label: Nouveauté, name: isNew, widget: boolean, default: false }
+              - { label: Mis en avant, name: featured, widget: boolean, default: false }
+              - { label: Photos, name: images, widget: list, required: false, field: { label: Photo, name: image, widget: image } }

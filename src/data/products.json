@@ -1,0 +1,190 @@
+{
+ "products": [
+  {
+   "id": "hoodie-black",
+   "name": "VD Heavy Hoodie",
+   "category": "hoodies",
+   "description": "Heavyweight fleece, oversized fit, VD logo on the chest.",
+   "priceEGP": 1450,
+   "priceXOF": 22000,
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#111111"
+    },
+    {
+     "name": "White",
+     "hex": "#f4f4f4"
+    }
+   ],
+   "stock": 20,
+   "published": true,
+   "isNew": true,
+   "featured": true,
+   "images": [
+    "/images/hoodies/hoodie-black.png",
+    "/images/hoodies/hoodie-white.png"
+   ]
+  },
+  {
+   "id": "hoodie-white",
+   "name": "VD Signature Hoodie",
+   "category": "hoodies",
+   "description": "Soft brushed hoodie with a kangaroo pocket and the VD logo.",
+   "priceEGP": 1500,
+   "priceXOF": 23000,
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "colors": [
+    {
+     "name": "White",
+     "hex": "#f4f4f4"
+    },
+    {
+     "name": "Black",
+     "hex": "#111111"
+    }
+   ],
+   "stock": 15,
+   "published": true,
+   "isNew": false,
+   "featured": true,
+   "images": [
+    "/images/hoodies/hoodie-white.png",
+    "/images/hoodies/hoodie-black.png"
+   ]
+  },
+  {
+   "id": "tee-black",
+   "name": "VD Classic Tee",
+   "category": "tshirts",
+   "description": "Soft cotton tee, relaxed cut, small VD logo on the chest.",
+   "priceEGP": 650,
+   "priceXOF": 10000,
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#111111"
+    },
+    {
+     "name": "White",
+     "hex": "#f4f4f4"
+    }
+   ],
+   "stock": 30,
+   "published": true,
+   "isNew": true,
+   "featured": true,
+   "images": [
+    "/images/tshirts/tee-black.png",
+    "/images/tshirts/tee-white.png"
+   ]
+  },
+  {
+   "id": "tee-white",
+   "name": "VD Essential Tee",
+   "category": "tshirts",
+   "description": "Clean everyday tee with the VD logo on the chest.",
+   "priceEGP": 700,
+   "priceXOF": 10500,
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "colors": [
+    {
+     "name": "White",
+     "hex": "#f4f4f4"
+    },
+    {
+     "name": "Black",
+     "hex": "#111111"
+    }
+   ],
+   "stock": 25,
+   "published": true,
+   "isNew": false,
+   "featured": true,
+   "images": [
+    "/images/tshirts/tee-white.png",
+    "/images/tshirts/tee-black.png"
+   ]
+  },
+  {
+   "id": "cap-black",
+   "name": "VD Dad Cap",
+   "category": "caps",
+   "description": "Six-panel cap, curved brim, adjustable strap, embroidered VD.",
+   "priceEGP": 450,
+   "priceXOF": 7000,
+   "sizes": [
+    "ONE SIZE"
+   ],
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#111111"
+    },
+    {
+     "name": "White",
+     "hex": "#f4f4f4"
+    }
+   ],
+   "stock": 40,
+   "published": true,
+   "isNew": false,
+   "featured": true,
+   "images": [
+    "/images/caps/cap-black.png",
+    "/images/caps/cap-white.png"
+   ]
+  },
+  {
+   "id": "cap-white",
+   "name": "VD Street Cap",
+   "category": "caps",
+   "description": "Structured cap with the VD logo embroidered on the front.",
+   "priceEGP": 480,
+   "priceXOF": 7500,
+   "sizes": [
+    "ONE SIZE"
+   ],
+   "colors": [
+    {
+     "name": "White",
+     "hex": "#f4f4f4"
+    },
+    {
+     "name": "Black",
+     "hex": "#111111"
+    }
+   ],
+   "stock": 18,
+   "published": true,
+   "isNew": true,
+   "featured": true,
+   "images": [
+    "/images/caps/cap-white.png",
+    "/images/caps/cap-black.png"
+   ]
+  }
+ ]
+}
